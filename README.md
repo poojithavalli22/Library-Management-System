@@ -29,47 +29,8 @@ Library_Management/
 ├── 📜 OutPut.txt                     # Sample console output and logs
 └── 📜 README.md                      # Project documentation
 
-To make your GitHub profile look professional, you can copy and paste the raw Markdown code below directly into your README.md file. I’ve enhanced the vocabulary to sound more technical (e.g., using "Authentication" instead of "Sign-in" and "Inventory" instead of "List") while keeping your original logic intact.
 
-Markdown
-# 📚 Library Management System
-
-A comprehensive Java-based solution designed to automate library operations, tracking book movements, and managing student transactions with precision.
-
-## 🚀 Key Features
-
-* **🔐 Secure Authentication** – Role-based access using unique Student Roll Numbers and encrypted-style password verification.
-* **📖 Real-time Inventory** – Instant visibility into available titles ready for circulation.
-* **📥 Smart Borrowing** – Automated checkout system with a built-in limit of 3 books per student.
-* **📤 Streamlined Returns** – Simplified return processing to update book status and availability.
-* **💰 Automated Fine Calculation** – Integrated penalty logic applying a **2 TK per day** fee for overdue items.
-* **📅 Deadline Monitoring** – A dedicated "Upcoming Returns" dashboard for books due within the next 7 days.
-* **🚪 Session Control** – Secure logout functionality to ensure data integrity.
-
----
-
-## 📂 Project Architecture
-
-
-
-The system is built using an Object-Oriented approach for modularity and scalability:
-
-```text
-Library_Management/
-├── 📜 LibraryManagementSystem.java   # Main entry point and CLI controller
-├── 📜 Library.java                   # Business logic and record management
-├── 📜 Book.java                      # Book entity and status attributes
-├── 📜 Student.java                   # User profile and borrowing history
-├── 📜 OutPut.txt                     # Sample console output and logs
-└── 📜 README.md                      # Project documentation
-🛠 Class Specifications
-📘 Book Class
-Manages individual book data and availability states.
-
-Attributes: title, author, isBorrowed, dueDate.
-
-Logic: Handles date-stamping for borrowed items and status toggles.
-
+##
 👨‍🎓 Student Class
 Represents the library user and their current holdings.
 
